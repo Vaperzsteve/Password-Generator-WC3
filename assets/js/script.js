@@ -4,7 +4,6 @@
 // *** all input validated
 // *** at least one char type must be selected
 
-
 // functions generating random upper and lower case and number and symbol characters
 function randUpperFunc() {
   return String.fromCharCode(Math.floor(Math.random() * 26 + 65));
@@ -22,11 +21,11 @@ function randSpecialFunc() {
   return specialArr[Math.floor(Math.random() * specialArr.length)];
 }
 
+// tell user what to do
+alert("Click the red 'Generate Password' button to start!");
 
+// onclick event listener for pressing the generate password button
 document.getElementById("generate").addEventListener("click", function() {
-  // tell user what to do
-  alert("Click the red 'Generate Password' button to start!");
-
   // keep prompting for character count until it is a number
   // and not null, "", or less than 8 or more than 128
   do {
