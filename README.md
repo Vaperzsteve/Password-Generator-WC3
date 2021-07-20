@@ -1,3 +1,4 @@
+
 # Password-Generator-WC3
 
 generates a random password with a varied length of chars and selected optional char types
@@ -15,3 +16,5 @@ Steve Robertson
 
 ## Link to Repository
 https://vaperzsteve.github.io/Password-Generator-WC3/
+
+![Uploading WC3 - password generator.png…]()
